@@ -24,6 +24,8 @@ public class App {
         */
         calculaMaior(7,14,106);
         calculaMaior(217,14,6);
+        calculaMaior(300,15,6);
+        calculaMaior(66,33,9);
 
 
 
