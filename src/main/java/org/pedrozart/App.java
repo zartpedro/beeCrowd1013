@@ -35,11 +35,7 @@ public class App {
         int c = input.nextInt();
 
         calculaMaior(a, b, c);
-        /*
-            calculaMaior(7,14,106);
-            calculaMaior(217,14,6);
 
-         */
 
 
 
