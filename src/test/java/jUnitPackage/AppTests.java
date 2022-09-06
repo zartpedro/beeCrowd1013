@@ -5,12 +5,9 @@ import org.pedrozart.App;
 
 public class AppTests {
 
-    private final App _app = new App();
-
-
     @Test
     public void quandoCEhMaior(){
-        var actualResult = _app.calculaMaior(7,14,106);
+        var actualResult = App.calculaMaior(7,14,106);
 
         Assertions.assertEquals(106, actualResult);
 
@@ -19,7 +16,7 @@ public class AppTests {
 
     @Test
     public void quandoAEhMaior(){
-        var actualResult = _app.calculaMaior(217,14,6);
+        var actualResult = App.calculaMaior(217,14,6);
 
         Assertions.assertEquals(217, actualResult);
 
@@ -28,18 +25,18 @@ public class AppTests {
     }
     @Test
     public void quandoBEhMaior(){
-        var actualResult = _app.calculaMaior(2,14,6);
+        var actualResult = App.calculaMaior(2,14,6);
 
-        Assertions.assertEquals(217, actualResult);
+        Assertions.assertEquals(14, actualResult);
 
 
 
     }
     @Test
     public void quandoTodosIguais(){
-        var actualResult = _app.calculaMaior(2,2,2);
+        var actualResult = App.calculaMaior(2,2,2);
 
-        Assertions.assertEquals(0, actualResult);
+        Assertions.assertEquals(2, actualResult);
 
 
 
