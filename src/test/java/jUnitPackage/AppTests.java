@@ -41,4 +41,10 @@ public class AppTests {
 
 
     }
+    @Test
+    public void testeBeeCrown(){
+        var actualResult = App.calculaMaior(26, 177, 1);
+
+        Assertions.assertEquals(177, actualResult);
+    }
 }

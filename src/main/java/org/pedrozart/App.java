@@ -12,7 +12,7 @@ public class App {
 
         if (a > b && a > c) {
             maior = a;
-            
+
 
         } else if (b > a && b > c) {
             maior = b;
